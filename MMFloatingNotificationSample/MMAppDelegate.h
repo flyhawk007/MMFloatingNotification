@@ -2,8 +2,8 @@
 //  MMAppDelegate.h
 //  MMFloatingNotificationSample
 //
-//  Created by Ji Yichao on 12-2-23.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by Yichao Peak ji on 12-2-23.
+//  Copyright (c) 2012 PeakJi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

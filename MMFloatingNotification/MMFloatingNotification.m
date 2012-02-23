@@ -17,7 +17,7 @@
 @synthesize delegate;
 
 #pragma mark - Initializing
-//Override
+
 -(id)init
 {
     self=[super init];
