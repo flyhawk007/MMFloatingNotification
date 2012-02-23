@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A425E7C14F5EACF00AB1471 /* MMFloatingNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A425E7B14F5EACF00AB1471 /* MMFloatingNotification.m */; };
+		0AF4E8BF14F5EA5E00021558 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF4E8BE14F5EA5E00021558 /* UIKit.framework */; };
+		0AF4E8C114F5EA5E00021558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF4E8C014F5EA5E00021558 /* Foundation.framework */; };
+		0AF4E8C314F5EA5E00021558 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF4E8C214F5EA5E00021558 /* CoreGraphics.framework */; };
+		0AF4E8C914F5EA5E00021558 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AF4E8C714F5EA5E00021558 /* InfoPlist.strings */; };
+		0AF4E8CB14F5EA5E00021558 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4E8CA14F5EA5E00021558 /* main.m */; };
+		0AF4E8CF14F5EA5E00021558 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4E8CE14F5EA5E00021558 /* MMAppDelegate.m */; };
+		0AF4E8D214F5EA5E00021558 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4E8D114F5EA5E00021558 /* MMViewController.m */; };
+		0AF4E8D514F5EA5E00021558 /* MMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF4E8D314F5EA5E00021558 /* MMViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A425E7A14F5EACF00AB1471 /* MMFloatingNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMFloatingNotification.h; path = MMFloatingNotification/MMFloatingNotification.h; sourceTree = "<group>"; };
+		0A425E7B14F5EACF00AB1471 /* MMFloatingNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMFloatingNotification.m; path = MMFloatingNotification/MMFloatingNotification.m; sourceTree = "<group>"; };
+		0AF4E8BA14F5EA5E00021558 /* MMFloatingNotificationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMFloatingNotificationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF4E8BE14F5EA5E00021558 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AF4E8C014F5EA5E00021558 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AF4E8C214F5EA5E00021558 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AF4E8C614F5EA5E00021558 /* MMFloatingNotificationSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMFloatingNotificationSample-Info.plist"; sourceTree = "<group>"; };
+		0AF4E8C814F5EA5E00021558 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AF4E8CA14F5EA5E00021558 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AF4E8CC14F5EA5E00021558 /* MMFloatingNotificationSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMFloatingNotificationSample-Prefix.pch"; sourceTree = "<group>"; };
+		0AF4E8CD14F5EA5E00021558 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		0AF4E8CE14F5EA5E00021558 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		0AF4E8D014F5EA5E00021558 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		0AF4E8D114F5EA5E00021558 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		0AF4E8D414F5EA5E00021558 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AF4E8B714F5EA5E00021558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF4E8BF14F5EA5E00021558 /* UIKit.framework in Frameworks */,
+				0AF4E8C114F5EA5E00021558 /* Foundation.framework in Frameworks */,
+				0AF4E8C314F5EA5E00021558 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A425E7814F5EABE00AB1471 /* MMFloatingNotification */ = {
+			isa = PBXGroup;
+			children = (
+				0A425E7A14F5EACF00AB1471 /* MMFloatingNotification.h */,
+				0A425E7B14F5EACF00AB1471 /* MMFloatingNotification.m */,
+			);
+			name = MMFloatingNotification;
+			sourceTree = "<group>";
+		};
+		0AF4E8AF14F5EA5E00021558 = {
+			isa = PBXGroup;
+			children = (
+				0A425E7814F5EABE00AB1471 /* MMFloatingNotification */,
+				0AF4E8C414F5EA5E00021558 /* MMFloatingNotificationSample */,
+				0AF4E8BD14F5EA5E00021558 /* Frameworks */,
+				0AF4E8BB14F5EA5E00021558 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AF4E8BB14F5EA5E00021558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AF4E8BA14F5EA5E00021558 /* MMFloatingNotificationSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AF4E8BD14F5EA5E00021558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AF4E8BE14F5EA5E00021558 /* UIKit.framework */,
+				0AF4E8C014F5EA5E00021558 /* Foundation.framework */,
+				0AF4E8C214F5EA5E00021558 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AF4E8C414F5EA5E00021558 /* MMFloatingNotificationSample */ = {
+			isa = PBXGroup;
+			children = (
+				0AF4E8CD14F5EA5E00021558 /* MMAppDelegate.h */,
+				0AF4E8CE14F5EA5E00021558 /* MMAppDelegate.m */,
+				0AF4E8D014F5EA5E00021558 /* MMViewController.h */,
+				0AF4E8D114F5EA5E00021558 /* MMViewController.m */,
+				0AF4E8D314F5EA5E00021558 /* MMViewController.xib */,
+				0AF4E8C514F5EA5E00021558 /* Supporting Files */,
+			);
+			path = MMFloatingNotificationSample;
+			sourceTree = "<group>";
+		};
+		0AF4E8C514F5EA5E00021558 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AF4E8C614F5EA5E00021558 /* MMFloatingNotificationSample-Info.plist */,
+				0AF4E8C714F5EA5E00021558 /* InfoPlist.strings */,
+				0AF4E8CA14F5EA5E00021558 /* main.m */,
+				0AF4E8CC14F5EA5E00021558 /* MMFloatingNotificationSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AF4E8B914F5EA5E00021558 /* MMFloatingNotificationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF4E8D814F5EA5E00021558 /* Build configuration list for PBXNativeTarget "MMFloatingNotificationSample" */;
+			buildPhases = (
+				0AF4E8B614F5EA5E00021558 /* Sources */,
+				0AF4E8B714F5EA5E00021558 /* Frameworks */,
+				0AF4E8B814F5EA5E00021558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMFloatingNotificationSample;
+			productName = MMFloatingNotificationSample;
+			productReference = 0AF4E8BA14F5EA5E00021558 /* MMFloatingNotificationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AF4E8B114F5EA5E00021558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0AF4E8B414F5EA5E00021558 /* Build configuration list for PBXProject "MMFloatingNotificationSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AF4E8AF14F5EA5E00021558;
+			productRefGroup = 0AF4E8BB14F5EA5E00021558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AF4E8B914F5EA5E00021558 /* MMFloatingNotificationSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AF4E8B814F5EA5E00021558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF4E8C914F5EA5E00021558 /* InfoPlist.strings in Resources */,
+				0AF4E8D514F5EA5E00021558 /* MMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AF4E8B614F5EA5E00021558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF4E8CB14F5EA5E00021558 /* main.m in Sources */,
+				0AF4E8CF14F5EA5E00021558 /* MMAppDelegate.m in Sources */,
+				0AF4E8D214F5EA5E00021558 /* MMViewController.m in Sources */,
+				0A425E7C14F5EACF00AB1471 /* MMFloatingNotification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AF4E8C714F5EA5E00021558 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF4E8C814F5EA5E00021558 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AF4E8D314F5EA5E00021558 /* MMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF4E8D414F5EA5E00021558 /* en */,
+			);
+			name = MMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AF4E8D614F5EA5E00021558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AF4E8D714F5EA5E00021558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AF4E8D914F5EA5E00021558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMFloatingNotificationSample/MMFloatingNotificationSample-Prefix.pch";
+				INFOPLIST_FILE = "MMFloatingNotificationSample/MMFloatingNotificationSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AF4E8DA14F5EA5E00021558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMFloatingNotificationSample/MMFloatingNotificationSample-Prefix.pch";
+				INFOPLIST_FILE = "MMFloatingNotificationSample/MMFloatingNotificationSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AF4E8B414F5EA5E00021558 /* Build configuration list for PBXProject "MMFloatingNotificationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF4E8D614F5EA5E00021558 /* Debug */,
+				0AF4E8D714F5EA5E00021558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF4E8D814F5EA5E00021558 /* Build configuration list for PBXNativeTarget "MMFloatingNotificationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF4E8D914F5EA5E00021558 /* Debug */,
+				0AF4E8DA14F5EA5E00021558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AF4E8B114F5EA5E00021558 /* Project object */;
+}
